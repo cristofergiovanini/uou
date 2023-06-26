@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celular</title>
+    <link rel="stylesheet" href="celularestilo.css">
+</head>
+<body>
+    
+    <header>
+        <img src="Imagem/logomarca1.png" alt="" class="logo">
+        <div>
+            
+            <ul class="menu">
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#">SOBRE</a></li>
+                <li><a href="#">CONTATO</a></li>
+            </ul>
+        </div>
+    </header>
+    <main >
+        <div id="bike">
+            <h3>VESPA SPRINT</h3>
+            <h1>S 150 ABS</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, quidem culpa officia maiores rerum corporis? Corrupti, tempora. Animi sunt, perspiciatis commodi voluptatem accusamus corrupti tempora natus. Voluptate eveniet ex non?</p>
+               
+            <h3 class="escolha">escolha sua cor</h3>
+            <div class="cor">
+                <div id="branca"></div>
+                <div id="vermelha"></div>
+                <div id="cinza"></div>
+            </div>
+        </div>
+    </main>
+    
+
+    <script src="java.js">
+
+      let greyBtn = document.getElementById('cinza');
+let redBtn = document.getElementById('vermelha');
+let greenBtn = document.getElementById('cinza');
+let bike = document.getElementById('bike');
+
+greyBtn.onclick = function () {
+  bike.style.backgroundImage = "url('../Imagem/motobrancaP.png')";
+};
+
+redBtn.onclick = function () {
+  bike.style.backgroundImage = "url('../Imagem/motovermelhaP.png')";
+};
+
+greenBtn.onclick = function () {
+  bike.style.backgroundImage = "url('../Imagem/motocinzaP.png')";
+};
+
+    </script>
+</body>
+</html>

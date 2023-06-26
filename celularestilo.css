@@ -1,0 +1,178 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body{
+    background-color: #454546;
+    height: 100vh;
+    width: 90vw;
+}
+header{
+    position: relative;
+    height:  90vh;
+    width: 90vw;
+    
+}
+.logo{
+    position: relative;
+    height: 50vh;
+    width: 90vw;   
+}
+.menu {
+    
+    position: absolute;
+    left: 25%;
+   display: flex;
+   list-style: none;
+   transition: 0.5s ;
+}
+
+a{
+    color: black;
+    display: inline-flex;
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.9s ;
+    font-size: 20px;
+    border-radius: 20px;
+    
+}
+a:hover{
+    transform: translateY(-50%, -50% );
+    border-radius: 20px;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.452);
+}
+
+
+.menu li{
+    
+    margin-right: 10px;
+}
+h1{
+    position: relative;
+    top: -73%;
+    left: 16%;
+    font-size: 60px;
+    
+}
+
+h3{ 
+    position: relative;
+    top: -81%;
+    left: 9%;
+}
+
+.escolha{
+    position: relative;
+    top: -45%;
+    left: 3%;
+}
+p{ 
+    text-indent: 10px;
+    text-align: top;
+    position: relative;
+    top: -50%;
+    left: 10%;
+    width: 64vw;
+    
+}
+main{
+   
+    margin: 0px;
+    transition: background-image 0.3s;
+    background-repeat: no-repeat;
+    padding: 0px;
+    position: relative;
+    height: 37vh;
+    width: 94vw; 
+    background-size: 100%;
+}
+.cor div{
+    position: relative;
+    top: -170px;
+    left: 21px;
+    cursor: pointer;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    transition: background-image 0.3s;
+}
+.cor{
+    height: 0px;
+    width: 0px;
+}
+#bike{
+    background-image: url(Imagem/motobrancaP.png);
+    margin: 0px;
+    background-position: left;
+    transition: background-image 0.5s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 25px;
+    position: relative;
+    height: 44vh;
+    width: 73vw;
+    background-size: 100%;
+}
+.cor #branca{
+    
+    background: rgb(255, 255, 255);
+    transition: 0.3s ease-in-out;
+}
+.cor #branca:hover{
+    transform: translateY(-10px);
+}
+
+.cor #vermelha {
+    position: relative;
+    top: -207px;
+    left: 69px;;
+    background: rgb(255, 0, 0);
+    transition: 0.3s ease-in-out;
+}
+
+.cor #vermelha:hover {
+    transform: translateY(-10px);
+}
+.cor #cinza {
+    position: relative;
+    top: -246px;
+    left: 119px;;
+    background: rgb(121, 119, 119);
+    transition: 0.3s ease-in-out;
+}
+
+.cor #cinza:hover {
+    transform: translateY(-10px);
+}
+
+@media screen and (max-width: 600px){
+  
+        h1 {
+          font-size: 30px;
+        }
+      
+        h2 {
+          font-size: 24px;
+        }
+      
+        h3 {
+          font-size: 18px;
+        }
+      
+        p {
+          font-size: 14px;
+        }
+      
+      }
+      
+
+      @media screen and (max-width: 600px) {
+        #bike {
+          font-size: 10px;
+        }
+      }
+      
